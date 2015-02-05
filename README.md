@@ -9,7 +9,7 @@ This works with ColdFusion versions 7, 8 & 9. For a CF10 version please check ou
 
 Extract the contents of this repository into a CFIDE/administrator/certman/ directory.
 
-* In ColdFusion 8/9 - Edit the CFIDE\administrator\custommenu.xml file to add the following submenu xml key:-
+In ColdFusion 8/9 - Edit the CFIDE\administrator\custommenu.xml file to add the following submenu xml key:-
 
     <submenu label="SSL Certificates">
       <menuitem href="certman" target="content">Certificate Management</menuitem>
@@ -18,7 +18,7 @@ Extract the contents of this repository into a CFIDE/administrator/certman/ dire
   You can only use this extension in a multiuser admin environment when logged in as the administrator user.
 
 
-* In ColdFusion 7 - Create/Edit CFIDE\administrator\extensionscustom.cfm to add:-
+In ColdFusion 7 - Create/Edit CFIDE\administrator\extensionscustom.cfm to add:-
 
     <a href="certman" target="content">Certificate Management</a><br>
 
