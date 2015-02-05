@@ -1,0 +1,29 @@
+{
+  "name" : "CF-Certman",
+  "slug" : "cf-certman",
+  "version" : "1.0.0.0",
+  "author" : "Matt Gifford <matt@monkehworks.com>",
+  "location" : "https://github.com/coldfumonkeh/CF-Certman",
+  "directory" : "",
+  "createPackageDirectory" : "false",
+  "Homepage" : "https://github.com/coldfumonkeh/CF-Certman",
+  "Documentation" : "https://github.com/coldfumonkeh/CF-Certman",
+  "Repository" : {
+    "type" : "git", "URL" : "https://github.com/coldfumonkeh/CF-Certman"
+  },
+  "Bugs" : "https://github.com/coldfumonkeh/CF-Certman/issues",
+  "shortDescription" : "An extension for ColdFusion 7,8 & 9 Administrators that allows adding/viewing/removing of SSL certificates in the Java cert store.",
+  "keywords" : [ "admin", "certificates", "ssl", "cfide" ],
+  "private" : "false",
+  "engines" : [
+    { "type" : "railo", "version" : ">=4.1.x" },
+    { "type" : "adobe", "version" : ">=7.0.0" }
+  ],
+  "defaultEngine" : "railo",
+  "defaultPort" : "8085",
+  "License" : [
+    { "type" : "MIT", "URL" : "" }
+  ],
+  "Contributors" : [ {"name": "Paul Connell", "url": "http://paulconnell.info"} ],
+  "ignore" : [ "tests/*", "README.md", "Vagrantfile", "mxunit/*", ".gitignore", "travis.yml", "build.xml" ]
+}
