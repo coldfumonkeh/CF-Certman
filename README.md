@@ -4,6 +4,12 @@ An extension for ColdFusion Administrator that allows adding/viewing/removing of
 
 This works with ColdFusion versions 7, 8 & 9. For a CF10 version please check out [CF10-Certman](https://github.com/coldfumonkeh/CF10-Certman).
 
+## CommandBox Compatible
+
+If you have [CommandBox](http://www.ortussolutions.com/products/commandbox) running on your local machine (and you should) you can download this project using the following command:
+
+    box install cf-certman
+
 
 ## Installation
 
